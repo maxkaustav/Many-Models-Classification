@@ -41,3 +41,5 @@ class CreditCardDataset():
             "valid_features": val_features,
             "test_features": test_features
         }
+    def get_data(self):
+        return self.__prepare_data()
